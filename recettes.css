@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: midnightblue;
+    padding: 0px 3%;
+}
+
+header {
+    background-color: grey;
+}
+
+.recette {
+    display: grid;
+    grid-template-columns: 100px 1fr 50px;
+    align-items: center;
+    height: 100px;
+    padding: 10px 0px;
+}
+
+.recette>div {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.recette>article {
+    margin-left: 50px;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: wheat;
+    padding: 20px 30px;
+    height: 100%;
+}
+
+img {
+    display: block;
+    height: 100%;
+}
