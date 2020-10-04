@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: midnightblue;
+}
+
+header{
+    background-color: grey;
+}
+
+section{
+    background-color: red;
+}
+
+footer{
+    background-color: blanchedalmond;
+}
+
+img{
+    border-radius:50%;
+    width:10%;
+    height:120%;
+    display:flex;
+    justify-content: center;
+}
