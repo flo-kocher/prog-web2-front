@@ -1,36 +1,36 @@
-html{
-    background-color:rgb(245,243,243);
+html {
+    background-color: rgb(245, 243, 243);
 }
 
 body {
     display: flex;
     flex-direction: column;
-    font-family : 'Arvo',Georgia,Times,serif;
+    font-family: 'Arvo', Georgia, Times, serif;
 }
 
 header {
-    background-color: rgb(41,41,41);
+    background-color: rgb(41, 41, 41);
     color: white;
 }
 
-nav{
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#buttons {
     display: flex;
     align-items: center;
 }
 
-#buttons{
-    display: flex;
-    padding-left: 60%;
-    align-items: center;
-}
-
-#language_translation{
+#language_translation {
     display: flex;
     flex-direction: row;
 }
 
-#language_translation>img{
-    width:50px;
+#language_translation>img {
+    width: 50px;
     height: 30px;
 }
 
@@ -50,7 +50,8 @@ nav{
     padding: 10px 3%;
 }
 
-.recipe>div , .recipe_reversed>div {
+.recipe>div,
+.recipe_reversed>div {
     height: 100%;
     width: 100%;
     overflow: hidden;

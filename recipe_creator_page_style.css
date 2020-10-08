@@ -40,34 +40,8 @@ nav {
 
 /*--------------------------------------*/
 
-hr {
-    height: 5px;
-    background-color: rgb(41, 41, 41);
-    color: rgb(41, 41, 41);
-    width: 90%;
-    border: none;
-    border-radius: 50%;
-}
-
-p {
-    color: white;
-    margin: 0 20% 0 10%;
-    padding: 1%;
-    background-color: rgb(41, 41, 41);
-    border-width: 3px;
-    border-radius: 20px 30px;
-    text-align: center;
-}
-
-#popular_recipes {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}
-
-article img {
-    border-radius: 50%;
-    width: 200px;
-    height: 200px;
+form {
+    display: flex;
 }
 
 
@@ -76,13 +50,3 @@ article img {
 footer {
     background-color: blanchedalmond;
 }
-
-
-/*
-section>img{
-    border-radius:50%;
-    width:10%;
-    height:120%;
-    display:flex;
-    justify-content: center;
-}*/
