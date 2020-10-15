@@ -41,7 +41,12 @@ nav {
 /*--------------------------------------*/
 
 form {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+form>div {
+    padding: 10px 10px 10px 10px;
 }
 
 
