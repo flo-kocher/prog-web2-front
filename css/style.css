@@ -1,0 +1,87 @@
+html {
+    background-color: rgb(245, 243, 243);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Arvo', Georgia, Times, serif;
+}
+
+
+/*--------------------------------------*/
+
+header {
+    background-color: rgb(41, 41, 41);
+    color: white;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#buttons {
+    display: flex;
+    align-items: center;
+}
+
+#language_translation {
+    display: flex;
+    flex-direction: row;
+}
+
+#language_translation>img {
+    width: 50px;
+    height: 30px;
+}
+
+
+/*--------------------------------------*/
+
+hr {
+    height: 5px;
+    background-color: rgb(41, 41, 41);
+    color: rgb(41, 41, 41);
+    width: 90%;
+    border: none;
+    border-radius: 50%;
+}
+
+p {
+    color: white;
+    margin: 0 10% 0 10%;
+    padding: 1%;
+    background-color: rgb(41, 41, 41);
+    border-width: 3px;
+    border-radius: 20px 30px;
+    text-align: center;
+}
+
+#popular_recipes {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+article {
+    text-align: center;
+}
+
+article img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+
+/*--------------------------------------*/
+
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr
+}
+
+form>div {
+    padding: 10px 10px 10px 10px;
+}

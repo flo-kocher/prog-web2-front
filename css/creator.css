@@ -1,0 +1,54 @@
+html {
+    background-color: rgb(245, 243, 243);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Arvo', Georgia, Times, serif;
+}
+
+
+/*--------------------------------------*/
+
+header {
+    background-color: rgb(41, 41, 41);
+    color: white;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#buttons {
+    display: flex;
+    align-items: center;
+}
+
+#language_translation {
+    display: flex;
+    flex-direction: row;
+}
+
+#language_translation>img {
+    width: 50px;
+    height: 30px;
+}
+
+
+/*--------------------------------------*/
+
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+form>div {
+    padding: 10px 10px 10px 10px;
+}
+
+#creations article p {
+    color: black;
+}
