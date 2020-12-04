@@ -1,5 +1,3 @@
-<?php include 'form.php';?>
-
 <!-- SI JE VEUX RAJOUTER LE SYSTEME DE NOM DE RECETTE JE PEUX FAIRE UNE
 VARIABLE GLOBALE QUE JE METS EN PHP COMME CA
 php $global = 0 php et plus tard je l'incrémente de la meme manière -->
