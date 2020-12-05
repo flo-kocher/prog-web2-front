@@ -1,33 +1,34 @@
-<!doctype html>
-<html lang="fr">
+<?php
 
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="css/recipes.css" />
-    <link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
-    <title>Les recettes de Licht</title>
-</head>
+$src = "/recipes.php";
+
+switch($_GET['language']){
+    case 'fr':
+        include('php/lang/french.php');
+        break;
+    case 'en':
+        include('php/lang/english.php');
+        break;
+    case 'de':
+        include('php/lang/german.php');
+        break;
+    default:
+        include('php/lang/french.php');
+}
+
+$css = "css/recipes.css";
+include('php/head.php');
+
+?>
+
 
 <body>
-    <header>
-        <nav>
-            <div id = "title-subtitle">
-                <h1>Les Recettes de Licht</h1>
-                <h3>Maître en gourmandises</h3>
-            </div>
-            <div id="buttons">
-                <div id="link">
-                    <a href="index.php">Accueil</a>
-                    <a href="/">Recettes</a>
-                    <a href="creator.php">Créer recette</a>
-                </div>
-                <div id ="language_translation">
-                    <img src="img/france-flag.png" alt="france's flag"/>
-                </div>
-            </div>
-        </nav>
-    </header>
+    <?php 
+        $home_link = "/index.php";
+        $recipes_link = "/";
+        $creation_link = "/creator.php";
+        include('php/header.php');
+    ?>
 
     <section class="recipe">
         <div>
@@ -89,10 +90,7 @@
             <img src="img/apple-pie.jpg" alt="picture of an apple pie" />
         </div>
     </section>
-
-    <button>Cliquer ici pour voir d'autres recettes</button>
-
-
+    
 </body>
 <script src="js/recipes.js"></script>
 

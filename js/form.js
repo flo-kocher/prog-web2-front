@@ -8,10 +8,6 @@ function new_ingredient() {
     let division_u = document.createElement('div')
     let division_i = document.createElement('div')
 
-    // from html
-    //let division_n = document.getElementById('div_n')
-    //let division_d = document.getElementById('div_d')
-    
     // Creation of every elements of form
     let label_q = document.createElement('label')
     label_q.setAttribute('for', 'quantity_' + id)
@@ -48,6 +44,7 @@ function new_ingredient() {
     let option5 = document.createElement('option')
     option5.value = 'pièces'
     option5.innerHTML = 'Pièces'
+
     //putting all options in select
     select_u.appendChild(option1)
     select_u.appendChild(option2_1)
